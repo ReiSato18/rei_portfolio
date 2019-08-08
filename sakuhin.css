@@ -1,9 +1,64 @@
 git commit --allow-empty -m "Trigger rebuild"
 git push
 
-body{
-  background-color: blue;
+body {
+  margin:0px;
+  background-color: #2222;
+  font-size: 0.9em;
+  border: 2px solid black;
 }
-h1{
-  color: white
+
+div#container{
+  margin: 0;
+  padding:10px;
+  background-color: #ffffcc;
+  border: 2px solid blue;
+}
+
+header h1{
+  padding: 80px;
+  border: 2px solid black;
+  margin:auto;
+  font-size: 1.8em;
+  font-family: serif;
+  /*border-left: 40px solid blue;*/
+  background-image: url(./images/menger_stage.png);
+  background-repeat: round;
+}
+
+header nav {
+  font-size: 1em;
+  font-family: serif;
+  margin-top: 3px;
+  background-color: yellow;
+  border: 1px solid blue;
+}
+
+section h2{
+  background-color: lightpink;
+}
+
+section h2,p{
+  font-size: 1.1em;
+  font-family: serif;
+  color: darkblue;
+  border: 2px solid blue;
+}
+
+section a{
+  border: 2px solid pink; margin:2px;
+}
+
+section img{
+  display: block;
+  margin:auto;
+}
+
+section {
+  font-family: serif;
+}
+
+li{
+  margin:5px 0px;
+  border:2px solid blue;
 }
